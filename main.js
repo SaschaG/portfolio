@@ -1,8 +1,13 @@
 $(function(){
 
+
+
+	$("#detail-screen-background").hide();
+	$("#detail-screen").hide();
+
 	var adjustToWindowHeight = function() {
 		
-		console.log("Window Height " + window.height + "Window Outer Height " + window.outerHeight  + "inner Height " + window.innerHeight)
+		
 
 		if(window.innerHeight > 550 && window.outerWidth > 992){
 			$(".mainbar").css("height", $(window).height()-30);
@@ -38,6 +43,25 @@ $(function(){
 	});
 
 
+
+
+
 	adjustToWindowHeight(); 
+
+	//Buttons
+	//Suhi
+	$("#sushi-button").click(function(){
+		
+		$("#detail-screen-background").show(250);
+		$("#detail-screen").show(250);
+
+	});
+
+
+
+
+
 	console.log("JQuerry Loaded and rdy to use");
 });
+
+
