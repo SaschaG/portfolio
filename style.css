@@ -16,7 +16,7 @@
 
 
 body{
-	font-family: helvetica;
+	font-family: 'Montserrat', helvetica, arial;
 	font-size: 16px;
 }
 
@@ -94,17 +94,32 @@ h1,h2,h3,h4,h5,h6{
 
 
 .show-case-button{
+	width: 160px;
+	height: 40px;
+
+	margin-left: auto;
+	margin-right: auto;
+
 	font-family: Orbitron;
 	font-size: 12pt;
 	font-weight: bold;
 	text-align: center;
 	color: #d24335;
-	padding: 5px;
 	background-color:#1a222f; 
-	width: 160px;
-	height: 40px;
-	margin-bottom: 10px;
+
+	padding: 5px;
+		
+	margin-bottom: 15px;
 	border: white 1px solid;
+}
+
+@media (min-width:  992px){
+	.show-case-button{
+		position: absolute;
+		bottom: 15px;
+		left: 0;
+		right: 0;
+	}
 }
 
 
@@ -120,14 +135,57 @@ h1,h2,h3,h4,h5,h6{
 	background-color: #1a222f;
 	color: #fff;
 	text-align: center;
-	min-height: 600px;
 }
+
+
+.show-case{
+	height: auto;
+}
+@media (min-width:  992px){
+	.show-case{
+		height: 620px;
+	}
+}
+
+@media (min-width:  1000px){
+	.show-case{
+		height: 670px;
+	}
+}
+/* LG Layout Break at 1200*/
+@media (min-width:  1200px){
+	.show-case{
+		height: 800px;
+	}
+}
+@media (min-width:  1300px){
+	.show-case{
+		height: 740px;
+	}
+}
+@media (min-width:  1400px){
+	.show-case{
+		height: 700px;
+	}
+}
+
+@media (min-width:  1500px){
+	.show-case{
+		height: 680px;
+	}
+}
+@media (min-width:  1600px){
+	.show-case{
+		height: 640px;
+	}
+}
+
 
 .showcase-pic{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	width: 100%;
-	max-width: 270px;
+	max-width: 230px;
 	width: auto;
 	max-height:150px;
 	border-radius: 15px;
