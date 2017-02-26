@@ -1,0 +1,90 @@
+/*
+@main-color: #1a222f;
+@main-color-shade1: #1C2533;
+@main-color-shade2: #212B3C;
+@main-color-shade3: #44597B;
+@main-color-shade4: #6887BB;
+
+@main-color-rgb: 26,34,47,1;
+@sub-color-1: #fff;
+@sub-color-2: #d24335;
+
+@font-standart: helvetica;
+@font-headline-1: Orbitron;
+
+*/
+
+
+body{
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Orbitron;
+	color:#000;
+}
+
+
+
+.mainbar{
+	position: fixed;
+	width: 25%;
+	box-sizing: border-box;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	padding: 15px;
+	float: left;
+	background-color: #1a222f;
+	color: #fff;
+	text-align: center;
+}
+
+.mainbar h1,h2,h3,h4,h5,h6{
+	color: #d24335;
+}
+
+.container-fluid{
+	width: 75%;
+	float: right;
+	padding-left: 45px
+
+}
+
+.initials{
+	color: #d24335;
+	font-family: Orbitron;
+	font-size: 48pt;	
+	text-align: center;
+	cursor: pointer;
+	transition: color 0.5s;
+}
+
+.profile-pic{
+	width: 100%;
+	height: auto;
+	clip-path: circle(50% at center);
+}
+
+.no-padding{
+	padding: 0;
+}
+
+
+
+.show-case{
+	background-color: #1a222f;
+	color: #fff;
+	text-align: center;
+	min-height: 400px;
+}
+
+.show-case h1,h2,h3,h4,h5,h6{
+	color: #d24335;
+}
+
+.show-case-container{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
