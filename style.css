@@ -25,32 +25,45 @@ h1,h2,h3,h4,h5,h6{
 	color:#000;
 }
 
-
-
 .mainbar{
-	position: fixed;
-	width: 25%;
-	box-sizing: border-box;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: 15px;
-	padding: 15px;
-	float: left;
 	background-color: #1a222f;
 	color: #fff;
 	text-align: center;
+	padding: 15px;
 }
+
+
+@media (min-width:  992px){
+	.mainbar{
+		position: fixed;
+		width: 25%;
+		box-sizing: border-box;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 15px;
+		padding: 15px;
+		float: left;
+		background-color: #1a222f;
+		color: #fff;
+		text-align: center;
+	}
+}
+
+
 
 .mainbar h1,h2,h3,h4,h5,h6{
 	color: #d24335;
 }
 
-.container-fluid{
-	width: 75%;
-	float: right;
-	padding-left: 45px
+@media (min-width:  992px){
+	.container-fluid{
+		width: 75%;
+		float: right;
+		padding-left: 45px
 
+	}
 }
+
 
 .initials{
 	color: #d24335;
@@ -61,24 +74,65 @@ h1,h2,h3,h4,h5,h6{
 	transition: color 0.5s;
 }
 
+.profile{
+	box-sizing: border-box;
+	padding-bottom: 15px;
+}
+
 .profile-pic{
 	width: 100%;
+	max-width: 300px;
 	height: auto;
 	clip-path: circle(50% at center);
+	overflow: hidden;
 }
+
 
 .no-padding{
 	padding: 0;
 }
 
 
+.show-case-button{
+	font-family: Orbitron;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	color: #d24335;
+	padding: 5px;
+	background-color:#1a222f; 
+	width: 160px;
+	height: 40px;
+	margin-bottom: 10px;
+	border: white 1px solid;
+}
+
+
+.show-case-button:hover{
+	font-size: 13pt;
+	width: 160px;
+
+	margin-bottom: 10px;
+}
+
 
 .show-case{
 	background-color: #1a222f;
 	color: #fff;
 	text-align: center;
-	min-height: 400px;
+	min-height: 600px;
 }
+
+.showcase-pic{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	max-width: 270px;
+	width: auto;
+	max-height:150px;
+	border-radius: 15px;
+}
+
 
 .show-case h1,h2,h3,h4,h5,h6{
 	color: #d24335;
@@ -87,4 +141,28 @@ h1,h2,h3,h4,h5,h6{
 .show-case-container{
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+#profile-button{
+	font-family: Orbitron;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+	color: #d24335;
+	padding: 10px;
+	width: 90%;
+	height: 55px;
+
+	background-color:#1a222f; 
+	border: white 1px solid;
+}
+
+#profile-button:hover{
+	font-size: 17pt;
+}
+
+
+
+.clear{
+	clear:both;
 }
