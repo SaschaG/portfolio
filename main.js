@@ -52,8 +52,8 @@ $(function(){
 	//Suhi
 	$("#sushi-button").click(function(){
 		
-		$("#detail-screen-background").show(250);
-		$("#detail-screen").show(250);
+	$("#detail-screen-background").show(250);
+	$("#detail-screen").show(250);
 
 	});
 
